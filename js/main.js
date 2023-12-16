@@ -11,4 +11,4 @@ const GenerateRandomColor = () => {
   title.textContent = randomColor;
 };
 
-window.addEventListener("click", GenerateRandomColor);
+document.addEventListener("click", GenerateRandomColor);
